@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #333;
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+
+label, input {
+    display: block; 
+    margin-bottom: 10px;
+}
+
+input {
+    width: 50%; 
+    padding: 10px;
+    font-size: 54px;
+    appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #118a61;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.result {
+    font-weight: bold;
+    font-size: 64px;
+    margin-top: 20px;
+}
